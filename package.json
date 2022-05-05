@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.0.0",
+  "description": "This is the backend for my portfolio website",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goellavish10/portfolio-backend.git"
+  },
+  "keywords": [
+    "portfolio",
+    "backend"
+  ],
+  "author": "Lavish Goyal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goellavish10/portfolio-backend/issues"
+  },
+  "homepage": "https://github.com/goellavish10/portfolio-backend#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
